@@ -1,0 +1,48 @@
+# 归一化和相关性分析
+# import pandas as pd
+# import matplotlib.pyplot as plt
+# from sklearn.preprocessing import MinMaxScaler
+# from sklearn.preprocessing import StandardScaler
+# df = pd.read_csv(r'C:\Users\asus\Desktop\merge_all2element.csv')
+# # 提取特征和目标变量
+# X = df[['Ave_Temp','Ave_RH','Sunshine','Ultraviolet','Wind','Precipitation','SO2','Cl']]
+# y = df['Vcorr']
+# # 使用 Min-Max 归一化将特征缩放到 [0, 1] 范围内
+# scaler = StandardScaler()
+# X_normalized = scaler.fit_transform(X)
+# sub_map = str.maketrans('0123456789', '₀₁₂₃₄₅₆₇₈₉')
+# formula = 'SO2'
+# plt.ylabel('{} Concentration'.format(formula.translate(sub_map)),fontsize=14)
+# normalized_data = pd.DataFrame(X_normalized,columns=['Ave_Temp', 'Ave_RH','Sun_duration',
+#                                                      'Precipitation','Wind','Ultraviolet',formula.translate(sub_map),
+#                                                      'Cl\u207B'])
+# # 计算相关系数矩阵
+# correlation_matrix = normalized_data.corr(method='spearman')           # 'spearman'可以换成 'pearson'或 'kendall'
+# # 打印相关系数矩阵
+# print("特征之间的相关性：")
+# print(correlation_matrix)
+# # 可视化相关性矩阵
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+# plt.figure(figsize=(9, 7))
+# # 设置不使用其默认自带的colorbar
+# # h = sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', vmin=-1, vmax=1,linewidths=0.8,
+# #             cbar=False, annot_kws={"fontsize":15})
+# # 显示colorbar
+# # cb=h.figure.colorbar(h.collections[0])
+# # 设置colorbar刻度字体大小
+# # cb.ax.tick_params(labelsize=15)
+# # plt.title("Normalized Correlation Matrix",fontsize=17, pad=9)
+# # 创建相关性矩阵热图
+# heatmap = sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', vmin=-1, vmax=1,linewidths=0.8,
+#                       annot_kws={"fontsize":16})
+# # 获取颜色条对象
+# cbar = heatmap.collections[0].colorbar
+# # 设置颜色条刻度值的字体大小
+# cbar.ax.tick_params(labelsize=16)        # 设置刻度值的大小为16
+# plt.rcParams['font.sans-serif']=['Times New Roman']
+# plt.xticks(fontsize=18)
+# plt.yticks(fontsize=18)
+# plt.tight_layout()
+# plt.savefig('C:/Users/asus/Desktop/spearman_真实.jpg',dpi=600)
+# plt.show()
