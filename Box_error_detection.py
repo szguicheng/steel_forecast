@@ -10,7 +10,9 @@ from matplotlib.font_manager import FontProperties
 font_path = FontProperties(fname='/System/Library/Fonts/STHeiti Light.ttc'
                            )  # 你需要替换为 'STKaiti' 字体在你的系统中的实际路径
 # plt.figure(dpi=100)                                                          # 调整分辨率
-df = pd.read_excel('/Users/guicheng/Documents/大学/本科学业/毕业设计/腐蚀数据/腐蚀数据.xlsx')
+df = pd.read_excel(
+    '/Users/guicheng/Documents/大学/本科学业/毕业设计/腐蚀数据处理/第二次腐蚀数据获取/第二次腐蚀数据_last.xlsx'
+)
 ax = plt.gca()
 # 设置图片大小
 sns.boxplot(y=df['腐蚀失厚率'],

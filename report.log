@@ -1,0 +1,128 @@
+2024-05-22 01:01:04,511 - pyswarms.backend.generators - ERROR - Bounds and/or init_pos should be of size (5,)
+Traceback (most recent call last):
+  File "/Users/guicheng/Desktop/hello world/.venv/lib/python3.9/site-packages/pyswarms/backend/generators.py", line 81, in generate_swarm
+    pos = center * np.random.uniform(
+  File "numpy/random/mtrand.pyx", line 1171, in numpy.random.mtrand.RandomState.uniform
+  File "_common.pyx", line 600, in numpy.random._common.cont
+  File "_common.pyx", line 517, in numpy.random._common.cont_broadcast_2
+  File "__init__.cython-30.pxd", line 780, in numpy.PyArray_MultiIterNew3
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (10, 5) and arg 1 with shape (10, 3).
+2024-05-22 01:01:35,247 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 01:02:25,141 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 01:05:33,018 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 01:05:49,465 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.5952656890546107, best pos: [157.30212603   5.52206134   3.85252935]
+2024-05-22 01:07:13,791 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 01:07:19,962 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.20648239004473737, best pos: [51.59882204 22.57894399  3.49758856]
+2024-05-22 01:07:41,863 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 01:07:58,239 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.2845775442637152, best pos: [160.63055426  30.35064964   2.51321661]
+2024-05-22 01:09:34,128 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 01:09:52,860 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.6420017273052216, best pos: [84.30251076 19.03741687  3.12357986]
+2024-05-22 01:12:14,827 - pyswarms.single.global_best - INFO - Optimize for 200 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 01:13:39,694 - pyswarms.single.global_best - INFO - Optimize for 200 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-05-22 01:15:13,907 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.2800163248083091, best pos: [244.23435864  10.76250939   2.03302824]
+2024-05-22 01:15:45,225 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 01:16:02,818 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.6255206964671055, best pos: [82.90068791 19.81063932  2.13580355]
+2024-05-22 04:55:49,800 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 04:56:14,201 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 04:57:07,791 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 04:57:26,990 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 05:00:20,379 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 05:02:38,156 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 05:05:19,133 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.6659557588485281, best pos: [161.63944099   4.97831578   0.41847572]
+2024-05-22 05:12:37,216 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 05:12:44,382 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.6328152960615145, best pos: [49.38167014  0.42175277  0.13333566]
+2024-05-22 05:19:23,266 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 05:21:55,833 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 05:22:36,489 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 23:24:28,742 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 23:24:44,643 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-22 23:25:08,562 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 02:18:44,639 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 02:34:12,705 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 02:34:30,289 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 21:53:03,563 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 21:53:48,797 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 21:55:49,980 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.8296092507882141, best pos: [152.06041282   3.47014555   0.23851863]
+2024-05-23 22:08:10,154 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:10:04,418 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.822900149810093, best pos: [165.13334541   3.53011837   0.32269539]
+2024-05-23 22:21:18,556 - pyswarms.backend.generators - ERROR - Bounds and/or init_pos should be of size (3,)
+Traceback (most recent call last):
+  File "/Users/guicheng/Desktop/hello world/.venv/lib/python3.9/site-packages/pyswarms/backend/generators.py", line 81, in generate_swarm
+    pos = center * np.random.uniform(
+  File "numpy/random/mtrand.pyx", line 1171, in numpy.random.mtrand.RandomState.uniform
+  File "_common.pyx", line 600, in numpy.random._common.cont
+  File "_common.pyx", line 517, in numpy.random._common.cont_broadcast_2
+  File "__init__.cython-30.pxd", line 780, in numpy.PyArray_MultiIterNew3
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (10, 3) and arg 1 with shape (10, 4).
+2024-05-23 22:22:03,881 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:22:19,214 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:27:31,573 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.7699358159325423, best pos: [200.09898017  17.74769904   3.99532267   1.94661183]
+2024-05-23 22:30:30,009 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:30:48,819 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.8063630778600425, best pos: [3.08571038e+02 2.77514241e+00 2.89422978e-01]
+2024-05-23 22:32:08,278 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:32:21,097 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.8134302343254209, best pos: [203.44233579   3.38814911   0.45775479]
+2024-05-23 22:33:21,124 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:33:35,531 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.8073147134850649, best pos: [157.63562342   3.44446475   0.29479111]
+2024-05-23 22:33:42,683 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:33:57,110 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.8021130415091383, best pos: [60.64916173  2.09564349  0.53973126]
+2024-05-23 22:34:07,421 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:34:20,829 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.8203011154343862, best pos: [197.70146324   3.70655758   0.40878854]
+2024-05-23 22:34:48,020 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:34:59,688 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.8033814045634797, best pos: [188.74266686   3.41882756   0.60653407]
+2024-05-23 22:36:12,471 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:36:26,470 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.8055840982864625, best pos: [3.38629371e+02 3.28441413e+00 1.09055996e-01]
+2024-05-23 22:36:27,973 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:36:41,550 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.8051701087574902, best pos: [117.98977267   3.51122307   0.2418641 ]
+2024-05-23 22:38:09,388 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:38:12,445 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.8948124284902131, best pos: [242.21397797   4.36568326   0.57673417]
+2024-05-23 22:38:15,738 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:38:18,853 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.9148287459995325, best pos: [322.19922002   4.51748394   0.33254211]
+2024-05-23 22:38:28,442 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:38:31,004 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.8975579273191441, best pos: [210.00745003   4.49305755   0.3403015 ]
+2024-05-23 22:38:58,244 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:38:59,709 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.8920640825107355, best pos: [241.03437787   4.63057773   0.61327782]
+2024-05-23 22:39:04,643 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:39:06,206 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.8557537333082896, best pos: [287.16325064   6.51464427   0.85002623]
+2024-05-23 22:39:10,467 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:39:12,163 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.8736689642363389, best pos: [317.7850913    5.1486437    0.99021318]
+2024-05-23 22:40:15,272 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:40:21,591 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.7793202528818425, best pos: [2.46268466e+02 3.38949509e+00 2.34998020e-01]
+2024-05-23 22:42:49,259 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:43:12,804 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.7955327289988953, best pos: [106.25729624   3.48522496   0.31100475]
+2024-05-23 22:47:41,540 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 22:47:46,193 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.8926945335913388, best pos: [165.62992872   3.24315193   0.54501462]
+2024-05-23 23:22:32,593 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 23:28:01,612 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.7623852582606261, best pos: [223.96719715  23.48633573   2.16973986   1.40901733]
+2024-05-23 23:56:04,318 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-23 23:57:15,987 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-24 00:01:29,147 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.6698110342042752, best pos: [21.42911655 27.66754181  3.5145764   1.57239235]
+2024-05-24 01:35:19,751 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-24 01:35:27,309 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.6382972677393877, best pos: [48.46061226  0.6136192   0.15120438]
+2024-05-24 01:37:40,678 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-05-24 01:37:47,845 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.6383567929822587, best pos: [48.15905589  0.5917892   0.1538898 ]
+2024-05-24 01:37:55,848 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.6, 'c2': 0.4, 'w': 0.9}
+2024-05-24 01:38:03,110 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.6382208632442212, best pos: [47.71618937  0.8788326   0.14676001]
+2024-05-24 01:38:11,171 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.6, 'c2': 0.4, 'w': 0.9}
+2024-05-24 01:38:18,365 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.6379355628282113, best pos: [49.31236624  0.77852628  0.16221256]
+2024-05-24 02:29:24,493 - tensorflow - WARNING - 5 out of the last 25 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x33a023160> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-05-24 02:30:01,153 - tensorflow - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x33a1750d0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-05-24 15:06:13,595 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-24 15:06:17,101 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.09098960368264608, best pos: [199.86459622]
+2024-05-24 15:06:26,278 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-24 15:06:30,265 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.05953336359037198, best pos: [299.88267499]
+2024-05-24 15:06:32,330 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-24 15:06:35,870 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.05964054330842909, best pos: [299.38278185]
+2024-05-24 15:45:27,919 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-24 15:50:04,849 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.7657491023115698, best pos: [188.71334091  15.90343313   2.58710829   1.7487592 ]
+2024-05-26 00:05:35,592 - matplotlib.mathtext - WARNING - Font 'default' does not have a glyph for '\u77ac' [U+77ac], substituting with a dummy symbol.
+2024-05-26 00:05:35,594 - matplotlib.mathtext - WARNING - Font 'default' does not have a glyph for '\u65f6' [U+65f6], substituting with a dummy symbol.
+2024-05-26 00:05:35,596 - matplotlib.mathtext - WARNING - Font 'default' does not have a glyph for '\u6cd5' [U+6cd5], substituting with a dummy symbol.
+2024-05-26 00:05:35,605 - matplotlib.mathtext - WARNING - Font 'default' does not have a glyph for '\u77ac' [U+77ac], substituting with a dummy symbol.
+2024-05-26 00:05:35,606 - matplotlib.mathtext - WARNING - Font 'default' does not have a glyph for '\u65f6' [U+65f6], substituting with a dummy symbol.
+2024-05-26 00:05:35,608 - matplotlib.mathtext - WARNING - Font 'default' does not have a glyph for '\u6cd5' [U+6cd5], substituting with a dummy symbol.
+2024-05-26 00:05:35,740 - matplotlib.mathtext - WARNING - Font 'default' does not have a glyph for '\u77ac' [U+77ac], substituting with a dummy symbol.
+2024-05-26 00:05:35,740 - matplotlib.mathtext - WARNING - Font 'default' does not have a glyph for '\u65f6' [U+65f6], substituting with a dummy symbol.
+2024-05-26 00:05:35,741 - matplotlib.mathtext - WARNING - Font 'default' does not have a glyph for '\u6cd5' [U+6cd5], substituting with a dummy symbol.
+2024-05-26 00:05:35,745 - matplotlib.mathtext - WARNING - Font 'default' does not have a glyph for '\u77ac' [U+77ac], substituting with a dummy symbol.
+2024-05-26 00:05:35,746 - matplotlib.mathtext - WARNING - Font 'default' does not have a glyph for '\u65f6' [U+65f6], substituting with a dummy symbol.
+2024-05-26 00:05:35,747 - matplotlib.mathtext - WARNING - Font 'default' does not have a glyph for '\u6cd5' [U+6cd5], substituting with a dummy symbol.
